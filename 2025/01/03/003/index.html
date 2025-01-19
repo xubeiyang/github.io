@@ -4,17 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>My Blog</title>
+  <title>003-如何用Hexo搭建自己的Blog（二） | My Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="这里是我的个人博客，分享技术与生活">
-<meta property="og:type" content="website">
-<meta property="og:title" content="My Blog">
-<meta property="og:url" content="https://xubeiyang.github.io/index.html">
+  <meta name="description" content="二、创建云端服务1. 在GitHub上创建新项目 登录GitHub：访问 GitHub 并登录您的账号。 创建新仓库： 点击页面右上角的 + 按钮，选择 New repository。 在 Repository name 中输入 username.github.io（将 username 替换为您的GitHub用户名）。 选择 Public（公开），然后点击 Create repository。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="003-如何用Hexo搭建自己的Blog（二）">
+<meta property="og:url" content="https://xubeiyang.github.io/2025/01/03/003/index.html">
 <meta property="og:site_name" content="My Blog">
-<meta property="og:description" content="这里是我的个人博客，分享技术与生活">
+<meta property="og:description" content="二、创建云端服务1. 在GitHub上创建新项目 登录GitHub：访问 GitHub 并登录您的账号。 创建新仓库： 点击页面右上角的 + 按钮，选择 New repository。 在 Repository name 中输入 username.github.io（将 username 替换为您的GitHub用户名）。 选择 Public（公开），然后点击 Create repository。">
 <meta property="og:locale">
+<meta property="article:published_time" content="2025-01-03T04:00:00.000Z">
+<meta property="article:modified_time" content="2025-01-19T05:12:48.108Z">
 <meta property="article:author" content="Your Name">
-<meta property="article:tag" content="博客,技术,生活">
+<meta property="article:tag" content="编程笔记">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="My Blog" type="application/atom+xml">
@@ -76,9 +78,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-003" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-003" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2025/01/03/003/" class="article-date">
   <time class="dt-published" datetime="2025-01-03T04:00:00.000Z" itemprop="datePublished">2025-01-03</time>
@@ -91,8 +91,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2025/01/03/003/">003-如何用Hexo搭建自己的Blog（二）</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      003-如何用Hexo搭建自己的Blog（二）
     </h1>
   
 
@@ -198,149 +198,19 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-002" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2025/01/02/002/" class="article-date">
-  <time class="dt-published" datetime="2025-01-02T04:00:00.000Z" itemprop="datePublished">2025-01-02</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2025/01/02/002/">002-如何用Hexo搭建自己的Blog（一）</a>
-    </h1>
+    <a href="/2025/01/02/002/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Älter</strong>
+      <div class="article-nav-title">002-如何用Hexo搭建自己的Blog（一）</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h3 id="一、创建本地Hexo服务"><a href="#一、创建本地Hexo服务" class="headerlink" title="一、创建本地Hexo服务"></a>一、创建本地Hexo服务</h3><ol>
-<li><p><strong>安装Node.js</strong></p>
-<ul>
-<li>首先，确保已安装Node.js。</li>
-</ul>
-</li>
-<li><p><strong>安装Git</strong></p>
-<ul>
-<li>安装Git以便进行版本控制。</li>
-</ul>
-</li>
-<li><p><strong>验证安装</strong></p>
-<ul>
-<li>在终端或命令行中运行以下命令，验证Node.js、npm和Git是否安装成功：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br><span class="line">git --version</span><br></pre></td></tr></table></figure></li>
-</ul>
-</li>
-<li><p><strong>安装Hexo</strong></p>
-<ul>
-<li>使用npm全局安装Hexo命令行工具：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure></li>
-<li>验证Hexo是否安装成功：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure></li>
-</ul>
-</li>
-<li><p><strong>创建项目文件夹</strong></p>
-<ul>
-<li>创建一个新的文件夹作为项目目录，例如 <code>&lt;myblog&gt;</code>，并进入该文件夹。</li>
-</ul>
-</li>
-<li><p><strong>初始化Hexo项目</strong></p>
-<ul>
-<li>在项目文件夹中打开Git Bash，执行以下命令初始化Hexo项目：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure></li>
-</ul>
-</li>
-<li><p><strong>启动本地服务器</strong></p>
-<ul>
-<li>运行以下命令启动Hexo本地服务器：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></li>
-<li>打开浏览器，访问 <code>http://localhost:4000/</code>，查看项目是否成功启动。</li>
-</ul>
-</li>
-<li><p><strong>创建新文章</strong></p>
-<ul>
-<li>使用以下命令创建一篇新文章：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &lt;新文章名称&gt;</span><br></pre></td></tr></table></figure></li>
-</ul>
-</li>
-<li><p><strong>编辑文章</strong></p>
-<ul>
-<li>在 <code>source/_posts</code> 目录下找到新建的文章文件（例如 <code>新文章.md</code>），使用Typora或其他Markdown编辑器打开并编辑。</li>
-</ul>
-</li>
-<li><p><strong>查看文章</strong></p>
-<ul>
-<li>刷新浏览器中的 <code>http://localhost:4000/</code>，查看新文章是否成功展示。</li>
-</ul>
-</li>
-</ol>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://xubeiyang.github.io/2025/01/02/002/" data-id="cm635xj1j00047c9x7hsl90ua" data-title="002-如何用Hexo搭建自己的Blog（一）" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%BC%96%E7%A8%8B%E7%AC%94%E8%AE%B0/" rel="tag">编程笔记</a></li></ul>
-
-    </footer>
-  </div>
   
 </article>
-
-
-
-  
-    <article id="post-001" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2025/01/01/001/" class="article-date">
-  <time class="dt-published" datetime="2025-01-01T04:00:00.000Z" itemprop="datePublished">2025-01-01</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2025/01/01/001/">Hello 2025!</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>这是一本写给自己的笔记，用它来记录我的2025，看看我这一年将走过哪些足迹！</p>
-<p>2024，过的乱乱的。</p>
-<p>2025，要打起精神来！认认真真、脚踏实地的做一些自己喜欢的事！</p>
-<p>今天是2025 的第一天，开通这个blog就是我今天的足迹！</p>
-<h2 id="24年回顾"><a href="#24年回顾" class="headerlink" title="24年回顾"></a>24年回顾</h2>
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://xubeiyang.github.io/2025/01/01/001/" data-id="cm635xj1f00017c9xanla6nbv" data-title="Hello 2025!" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%97%A5%E8%AE%B0/" rel="tag">日记</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
 
 
 </section>
